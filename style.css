@@ -1,0 +1,53 @@
+body{
+    margin:0;
+    padding-top:800px;
+}
+
+.TBL{
+    border-radius: 60px;
+    margin-bottom: 50px;
+}
+
+#image{
+    position:absolute;
+    overflow: hidden;
+    height: 800px;
+    color:aliceblue;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    background:linear-gradient(#ccccff 0%, #6600cc 100%);
+    display:table;
+    width:100%;
+    height:100%;
+    z-index:9;
+}
+
+h1{
+    font-family: 'Freehand', cursive;
+}
+
+.menu {
+    list-style: none ;
+    position: absolute ;
+    top: 10px;
+    right: 30px;
+    z-index:10;
+}
+
+.link{
+    float: left ;
+    color:antiquewhite;
+    padding-left:6px;
+    padding-right:6px;
+    padding-top:6px;
+    padding-bottom: 6px;
+    font-size:20px;
+    font-family: 'Comforter Brush', cursive;
+
+}
+
+
+
+
